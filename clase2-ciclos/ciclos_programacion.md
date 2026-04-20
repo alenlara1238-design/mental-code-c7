@@ -157,7 +157,6 @@ Contador: Número de estudiantes (30)
 Un sistema requiere que el usuario ingrese una contraseña correcta para acceder.
 
 El sistema debe:
-
 Solicitar la contraseña.
 Verificar si es correcta.
 Si no es correcta, volver a pedirla.
