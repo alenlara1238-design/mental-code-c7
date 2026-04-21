@@ -112,3 +112,137 @@ Energía restante: 0
 Total de ataques recibidos: 5
 El personaje ha sido derrotado.
 ```
+
+# Ejercicios de lógica: ciclos y decisiones
+
+Resuelve los siguientes ejercicios usando la estructura repetitiva que consideres adecuada en cada caso.  
+Dentro del proceso deberás usar también estructuras condicionales para tomar decisiones ( Si... Entonces)
+
+---
+
+# Ejercicio 1: Recompensas del jugador
+
+Un jugador participa en **8 misiones**.
+
+En cada misión obtiene una cantidad de monedas.
+
+Debes:
+
+1. Leer la cantidad de monedas obtenidas en cada misión.
+2. Si obtuvo más de **50 monedas**, mostrar el mensaje:
+   **"¡Recompensa especial!"**
+3. Al finalizar, mostrar el total de monedas acumuladas.
+
+---
+
+## Ejemplo de salida
+
+```text
+Ingrese monedas de la misión: 40
+Ingrese monedas de la misión: 70
+¡Recompensa especial!
+Ingrese monedas de la misión: 30
+Ingrese monedas de la misión: 90
+¡Recompensa especial!
+...
+
+Total de monedas acumuladas: 320
+```
+## Ejercicio 2: Vida del personaje
+
+Un personaje inicia con 100 puntos de vida.
+
+Durante la partida recibe diferentes cantidades de daño.
+
+Debes:
+
+1. Leer el daño recibido.
+2. Restar el daño a la vida del personaje.
+3. Si la vida queda por debajo de 30, mostrar:
+"¡Vida crítica!"
+
+El proceso termina cuando la vida sea menor o igual a 0.
+Mostrar cuántos ataques recibió.
+
+## Ejemplo de salida
+```text
+Ingrese daño recibido: 20
+Vida restante: 80
+
+Ingrese daño recibido: 25
+Vida restante: 55
+
+Ingrese daño recibido: 30
+Vida restante: 25
+¡Vida crítica!
+
+Ingrese daño recibido: 30
+Vida restante: -5
+
+Total de ataques recibidos: 4
+```
+## Ejercicio 3: Puntajes de niveles
+
+Un jugador completa 6 niveles.
+
+Por cada nivel:
+
+Leer el puntaje obtenido.
+1. Si el puntaje es mayor o igual a 100, mostrar:
+"Nivel superado con bonus"
+2. Si no, mostrar:
+"Nivel superado sin bonus"
+
+Al final, mostrar cuántos niveles obtuvieron bonus.
+## Ejemplo de salida
+```text
+Ingrese puntaje: 120
+Nivel superado con bonus
+
+Ingrese puntaje: 80
+Nivel superado sin bonus
+
+Ingrese puntaje: 150
+Nivel superado con bonus
+
+(hasta completar seis...)
+
+...
+
+Niveles con bonus: 4
+```
+## Ejercicio 4: Batalla contra jefe final
+
+Un jefe enemigo tiene 200 puntos de vida.
+
+El jugador realiza ataques sucesivos.
+
+Debes:
+
+1. Leer el daño de cada ataque.
+2. Restarlo a la vida del jefe.
+3. Si el daño es mayor a 40, mostrar:
+"¡Golpe crítico!"
+
+El proceso termina cuando la vida del jefe sea menor o igual a 0.
+Mostrar cuántos ataques fueron necesarios para derrotarlo.
+
+## Ejemplo de salida
+```text
+Ingrese daño: 35
+Vida del jefe: 165
+
+Ingrese daño: 50
+¡Golpe crítico!
+Vida del jefe: 115
+
+Ingrese daño: 60
+¡Golpe crítico!
+Vida del jefe: 55
+
+Ingrese daño: 60
+¡Golpe crítico!
+Vida del jefe: -5
+
+Jefe derrotado en 4 ataques
+```
